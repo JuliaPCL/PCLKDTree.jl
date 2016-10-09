@@ -1,7 +1,18 @@
+"""
+The **pcl_kdtree** library provides the kd-tree data-structure, using flann,
+nearest neighbor searches.
+
+http://docs.pointclouds.org/trunk/group__kdtree.html
+
+## Exports
+
+$(EXPORTS)
+"""
 module PCLKDTree
 
 export KdTree, KdTreeFLANN, nearestKSearch
 
+using DocStringExtensions
 using LibPCL
 using PCLCommon
 using Cxx
